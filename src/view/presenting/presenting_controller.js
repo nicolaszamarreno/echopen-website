@@ -1,5 +1,5 @@
 export default {
-  name: 'home',
+  name: 'presenting',
   data() {
     return {
       msg: 'Welcome to Your Vue.js App',

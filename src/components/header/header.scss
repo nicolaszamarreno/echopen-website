@@ -1,0 +1,11 @@
+.header{
+    &__nav{
+        ul{
+            display: flex;
+
+            li{
+                padding-left: 1rem;
+            }
+        }
+    }
+}
