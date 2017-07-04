@@ -79,7 +79,7 @@ module.exports = {
         ]
     },
     devServer: {
-        contentBase: path.resolve(__dirname, "./build"),
+        contentBase: path.resolve(__dirname, "./src"),
         host: 'localhost',
         port: 3000,
         https: false,
@@ -133,11 +133,6 @@ module.exports = {
                 drop_console: true,
             }
         }),
-        new HtmlWebpackPlugin({
-            hash: true,
-            template: 'ejs-render-loader!./src/index.ejs',
-            inject: 'body'
-        }),
         new BrowserSyncPlugin(
             {
                 host: 'localhost',
@@ -152,6 +147,7 @@ module.exports = {
         new CopyWebpackPlugin(
             [
                 // Copy directory contents to {output}/to/directory/
+                {from: 'index.html'},
                 { from: 'img/**/*', to: '/'  },
             ],
             {
