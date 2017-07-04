@@ -1,31 +1,21 @@
-EchOpen
-=======
+# echopen-website
 
-## Getting Started
-**Install dependencies** to launch the project
+> A Vue.js project
 
- ```
- $ npm install
- ```
+## Build Setup
 
- Then, **launch the server & compilation** with this command
+``` bash
+# install dependencies
+npm install
 
- ```
- $ npm start
- ```
+# serve with hot reload at localhost:8080
+npm run dev
 
-  Then, **launch the server & compilation** with this command
+# build for production with minification
+npm run build
 
- ```
- $ npm build:browserSync
- ```
+# build for production and view the bundle analyzer report
+npm run build --report
+```
 
-
- ## Team
-
-
- See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
- ## License
-
- This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
