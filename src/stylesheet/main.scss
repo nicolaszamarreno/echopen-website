@@ -1,0 +1,11 @@
+.bonjour{
+	padding: 10rem;
+	&_aurevoir{
+		background: red;
+	}
+}
+
+body{
+	background: green;
+	display: flex;
+}
