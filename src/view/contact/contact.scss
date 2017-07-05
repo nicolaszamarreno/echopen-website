@@ -1,6 +1,10 @@
-h1 {
-  color: red;
-  &:hover {
-    color: green;
+.contact {
+  padding: 10%;
+  &-block {
+    margin-top: 30px;
+  }
+  .tel {
+    font-size: 36px;
+    font-weight: 600;
   }
 }
