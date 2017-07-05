@@ -1,11 +1,42 @@
 .header{
-    &__nav{
-        ul{
-            display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 
-            li{
-                padding-left: 1rem;
-            }
+  &__logo{
+    width: 12rem;
+  }
+
+  &__nav{
+    display: inline-block;
+
+    ul{
+      display: flex;
+
+      li{
+        margin-left: 1.8rem;
+
+        a{
+          font-size: 1.6rem;
+          color: white;
         }
+
+        &:last-child{
+          margin-left: 3rem;
+
+          a{
+            background: $magenta-button;
+            padding: .5rem 1.2rem;
+            border-radius: .3rem;
+          }
+        }
+      }
     }
+  }
+
+  .row{
+    min-height: 5rem;
+  }
 }

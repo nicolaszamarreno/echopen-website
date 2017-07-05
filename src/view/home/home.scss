@@ -1,6 +1,38 @@
-h1 {
-  color: red;
-  &:hover {
-    color: green;
+.hero {
+  height: 100vh;
+  background-image: url("https://alexwyke.files.wordpress.com/2013/05/shuttershock-medical-devices-corp-rep.jpg");
+  background-color: $blue-brand;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-blend-mode: multiply;
+  background-size: cover;
+
+  &__baseline{
+    color: $white;
+
+    span{
+      @include font($font:$font, $size:5rem, $line_height:3rem, $color:null, $font_weight:null);
+    }
+
+    p{
+      @include font($font:$font, $size:1.4rem, $line_height:2rem, $color:null, $font_weight:null);
+    }
+  }
+
+  &__button{
+    @include font($font:$font, $size:1.6rem, $line_height:2rem, $color:$blue-brand, $font_weight:null);
+    display: inline-block;
+    background: $white;
+    margin-top: 3rem;
+    padding: .8rem 6rem;
+    border-radius: .2rem;
+  }
+
+  .container{
+    height:100vh;
+
+    & > .row{
+      height:100vh;
+    }
   }
 }
