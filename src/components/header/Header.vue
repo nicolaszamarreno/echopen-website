@@ -19,6 +19,6 @@
 <script src="./header_controller.js">
 </script>
 
-<style scoped lang="scss" src="./header.scss">
+<style scoped lang="scss">
 </style>
 
