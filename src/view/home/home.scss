@@ -16,7 +16,6 @@
 
     p{
       @include font($font:$font, $size:1.4rem, $line_height:2rem, $color:null, $font_weight:null);
-      margin-top: 1rem;
     }
   }
 
@@ -36,12 +35,4 @@
       height:100vh;
     }
   }
-}
-
-.revolution{
-
-}
-
-.section{
-  margin-top: 4.8rem;
 }

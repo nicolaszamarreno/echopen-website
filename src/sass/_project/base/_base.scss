@@ -9,25 +9,28 @@
         box-sizing: border-box;
     }
 
-  html, body {
-    font-size: 62.5%;
-    margin: 0;
-    padding: 0;
-  }
+    html, body{
+        margin: 0;
+        padding: 0;
+    }
 
-  html {
-    position: relative;
-    color: $black;
-    background-color: $white;
-    height: 100%;
-    -webkit-font-smoothing: antialiased;
-  }
+    html
+    {
+        font-size: 62.5%;
+        position: relative;
+        color:$black;
+        background-color: $white;
+        height: 100%;
+        -webkit-font-smoothing: antialiased;
+    }
 
-  body {
-    height: 100%;
-    background-color: $white;
-    font-family: $font;
-  }
+
+    body
+    {
+        height: 100%;
+        background-color: $white;
+        font-family: $font;
+    }
 
 
     *, *::before, *::after
@@ -35,9 +38,11 @@
         background-repeat: no-repeat;
     }
 
-  h1, h2, h3, h4 {
-    margin: 0;
-  }
+
+    h1,h2,h3,h4
+    {
+        margin: 0;
+    }
 
   h1
   {
@@ -81,7 +86,8 @@
 
     li
     {
-        list-style: none
+        list-style: none;
+        font-size: 1.6rem;
     }
 
 
@@ -105,6 +111,20 @@
     input:focus {
         outline:0;
     }
+}
+
+
+
+
+/*****************/
+/****** MAIN *****/
+/*****************/
+
+.main
+{
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
 }
 
 
