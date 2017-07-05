@@ -16,7 +16,7 @@
 
     html
     {
-        @include font($font: $font, $size:62.5%, $line_height:calc($size * 1.5), $color:$grey-brand, $font_weight:null)
+        font-size: 62.5%;
         position: relative;
         color:$black;
         background-color: $white;
