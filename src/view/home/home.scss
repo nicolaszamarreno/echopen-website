@@ -89,38 +89,14 @@
   background: #9f0054; /* Old browsers */
   background: -moz-linear-gradient(left, #9f0054 0%, #ef197d 71%, #ef197d 75%, #ff972e 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(left, #9f0054 0%,#ef197d 71%,#ef197d 75%,#ff972e 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #9f0054 0%,#ef197d 71%,#ef197d 75%,#ff972e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(to right, #9f0054 0%,#ef197d 71%,#ef197d 75%,#ff972e 100%), url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiI…IgaWQ9IlJlY3RhbmdsZS0zIj48L3BhdGg+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=) center top / contain no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   position: relative;
   padding: 10rem 0;
   overflow: hidden;
 
-  &:before{
-    content: "";
-    display: block;
-    background: url("assets/home_cache-bottom.svg") no-repeat;
-    background-position: top center;
-    background-size: contain;
-    height: 40rem;
-    width: 100%;
-    position: absolute;
-    top:-30rem;
-    transform: rotate(180deg) scaleX(-1);
-  }
-
-  &:after{
-    content: "";
-    display: block;
-    background: url("assets/home_cache-bottom.svg") no-repeat;
-    background-position: bottom center;
-    background-size: contain;
-    height: 40rem;
-    width: 100%;
-    position: absolute;
-    bottom: -12rem;
-  }
-
   &__title{
     @include font($font:$font, $size:4.4rem, $line_height:3rem, $color:$white, $font_weight:$regular);
+    margin-bottom: 2rem;
 
     strong{
       font-weight: $bold;
@@ -130,12 +106,35 @@
   &__text{
     @include font($font:$font, $size:1.4rem, $line_height:2rem, $color:$white, $font_weight:$regular);
   }
+
+  &__patternTop{
+     position: absolute;
+     top: 0;
+
+     path{
+       fill: $white;
+     }
+   }
+
+  &__patternBottom{
+    position: absolute;
+    bottom: 0;
+
+    path{
+      fill: $white;
+    }
+  }
  }
 
 
 .home-pin{
+  position: relative;
+  z-index: 10;
+  top: -15rem;
+
   &__list{
     display: flex;
+    justify-content: space-between;
   }
 
   &__picture{
@@ -165,16 +164,23 @@
 
   &__legend{
     @include font($font:$font, $size:2rem, $line_height:2rem, $color:$black, $font_weight:$bold);
-    margin: 1rem 0;
+    margin: 2rem 0;
   }
 
   &__text{
     @include font($font:$font, $size:1.4rem, $line_height:2rem, $color:$gray, $font_weight:$regular);
   }
 
+  &__button{
+    display: block;
+    margin-top: 3rem;
+    @include font($font:$font, $size:1.4rem, $line_height:2rem, $color:$blue-brand, $font_weight:$regular);
+  }
+
   &__item{
     text-align: center;
-    padding: 2rem;
+    padding: 4rem;
+    background-color: $white;
     width: 30%;
 
     &--big{
@@ -187,8 +193,25 @@
 
 .home-save{
   background: url("assets/home_save.svg") no-repeat;
-  background-size: 100% 100%;
   background-position: center top;
-  height: 80rem;
-  padding-top: 20%;
+
+  @include mq($from: lg){
+    background-size: 100% 100%;
+  }
+
+  .row, .container{
+    height: 80rem;
+  }
+}
+
+.home-newsletter{
+  margin-bottom: 2rem;
+
+  &__baseline{
+    @include font($font:$font, $size:1.4rem, $line_height:2rem, $color:$black, $font_weight:$regular);
+
+    strong{
+      @include font($font:$font, $size:2rem, $line_height:2rem, $color:$black, $font_weight:$semi-bold);
+    }
+  }
 }

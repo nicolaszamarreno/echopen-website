@@ -5,7 +5,16 @@
     background: $white;
     margin-top: 3rem;
     padding: .8rem 6rem;
-    border-radius: .2rem;
+    border-radius: 10rem;
+    @include box-shadow-strong($white);
+  }
+
+  &__color{
+    @include font($font:$font, $size:1.6rem, $line_height:2rem, $color:$white, $font_weight:$semi-bold);
+    display: inline-block;
+    background: $blue-brand;
+    padding: .8rem 6rem;
+    border-radius: 10rem;
     @include box-shadow-strong($gray);
   }
 }
