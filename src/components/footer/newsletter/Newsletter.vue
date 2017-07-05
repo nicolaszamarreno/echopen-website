@@ -1,10 +1,9 @@
 <template lang="html">
   <section class="newsletter">
-    <p class="newsletter__title">News letter !!</p>
-    <p class="newsletter__subtitle">Ne manquez aucuns évènements</p>
-    <form action="" method="post">
+    <p class="newsletter__title">Newsletter</p>
+    <form action="" method="post" class="newsletter__form">
       <input type="text" class="newsletter__input">
-      <input type="textsubmit" value="M'inscrire" class="newsletter__button">
+      <input type="submit" value="" class="newsletter__button">
     </form>
   </section>
 </template>

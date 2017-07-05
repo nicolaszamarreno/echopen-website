@@ -19,6 +19,7 @@ $light: 300;
 $regular: 500;
 $bold: 700;
 
+
 /****************/
 /* Media Queries with _Sass-mq_ */
 /* https://github.com/sass-mq/sass-mq */
@@ -95,8 +96,8 @@ $grid-breakpoints: (
     lg: $lg,
     xl: $xl
 ) !default;
-@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
-@include _assert-starts-at-zero($grid-breakpoints);
+@include -assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include -assert-starts-at-zero($grid-breakpoints);
 
 
 // Grid containers
@@ -109,7 +110,7 @@ $container-max-widths: (
     lg: 960px,
     xl: 1140px
 ) !default;
-@include _assert-ascending($container-max-widths, "$container-max-widths");
+@include -assert-ascending($container-max-widths, "$container-max-widths");
 
 
 // Grid columns
