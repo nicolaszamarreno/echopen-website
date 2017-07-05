@@ -30,13 +30,17 @@
       content: "";
       display: block;
       position: absolute;
-      width: 80%;
-      height: 80%;
+      width: 27rem;
+      height: 27rem;
       background-color: $magenta-button;
       border-radius: 50%;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+    }
+
+    img{
+      width:25rem;
     }
   }
 }

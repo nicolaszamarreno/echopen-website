@@ -21,7 +21,7 @@
             <h4 class="title__small text-center">Le futur est à notre portée</h4>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="revolution__probe">
+                    <div class="revolution__probe text-center">
                         <img class="revolution__probe" src="../../../src/assets/home_probe.svg" alt="Probe">
                     </div>
                 </div>
