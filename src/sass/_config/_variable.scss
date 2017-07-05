@@ -13,11 +13,14 @@ $footer: #4A4A4A;
 /****************/
 /* FONTS & WIDTH */
 /****************/
-$font: 'Avenir';
+$font: 'Source Sans Pro', sans-serif;
 
+$extra-light: 200;
 $light: 300;
-$regular: 500;
+$regular: 400;
+$semi-bold: 600;
 $bold: 700;
+$black: 900;
 
 /****************/
 /* Media Queries with _Sass-mq_ */
