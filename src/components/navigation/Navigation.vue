@@ -15,12 +15,16 @@
         <li>
             <router-link :to="{name: 'Contact'}">Contact</router-link>
         </li>
+        <li>
+            <router-link :to="{name: 'Don'}">Faire un don</router-link>
+        </li>
     </ul>
+  </div>
 </template>
 
 
 <script src="./navigation_controller.js">
 </script>
 
-<style scoped lang="scss" src="./navigation.scss">
+<style lang="scss" >
 </style>

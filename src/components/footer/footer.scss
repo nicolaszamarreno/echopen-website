@@ -1,5 +1,114 @@
-.footer{
-    background: #4a4a4a;
-    color: white;
-    padding: 2rem 0;
+.footer {
+  @include mq($from: lg) {
+    height: 200px;
+  }
+  color: white;
+  padding: 2rem 0;
+  /* IE 10*/
+  background-image: -ms-linear-gradient(bottom right, #387CD7 0%, #46DDC1 100%);
+
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(bottom right, #387CD7 0%, #46DDC1 100%);
+
+  /* Opera */
+  background-image: -o-linear-gradient(bottom right, #387CD7 0%, #46DDC1 100%);
+
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #387CD7), color-stop(100, #46DDC1));
+
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(bottom right, #387CD7 0%, #46DDC1 100%);
+
+  /* W3C Markup */
+  background-image: linear-gradient(to top left, #387CD7 0%, #46DDC1 100%);
+
+  .footer__container {
+    height: 100%;
+    padding: 0;
+  }
+
+  .footer__row {
+    height: 100%;
+    margin: 0;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+    .footerLogo {
+      width: 110px;
+    }
+  }
+
+  .navigation {
+    margin-bottom: 20px;
+    &__title {
+      font-size: 17px;
+      font-weight: bold;
+    }
+    ul {
+      display: flex;
+    }
+    li {
+      margin-left: 20px;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+    a {
+      font-size: 13px;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  .newsletter {
+    margin-bottom: 20px;
+    &__form {
+      display: flex;
+    }
+    &__title {
+      margin-bottom: 10px;
+      font-size: 21px;
+      font-weight: bold;
+    }
+    &__input {
+      padding: 5px;
+      width: 170px;
+    }
+    &__button {
+      border-radius: 50%;
+      border: none;
+      width: 25px;
+      height: 25px;
+      position: relative;
+      right: 26px;
+      top: 1px;
+      cursor: pointer;
+      background: #d81d60;
+    }
+  }
+
+  .copyright {
+    display: flex;
+    li {
+      font-size: 9px;
+      margin-left: 10px;
+    }
+  }
+
+  .socialnetwork {
+    display: flex;
+    li {
+      margin-left: 10px;
+    }
+  }
+
+  .no-padding {
+    padding: 0;
+  }
+
+  .no-margin {
+    margin: 0;
+  }
 }
