@@ -1,5 +1,6 @@
 .product {
   .countrySlider {
+    position: relative;
     &__container {
       position: absolute;
       width: 100%;
@@ -23,7 +24,7 @@
       }
       &.active {
         height: 64px;
-        @include mq($from: md){
+        @include mq($from: md) {
           position: relative;
           bottom: 8px;
         }
@@ -34,7 +35,7 @@
       padding: 16px 0px;
     }
     &__content {
-      height: 503px;
+      height: 700px;
       background-size: cover;
       background-position: center;
       position: relative;
@@ -64,6 +65,32 @@
     &__text {
       @include font($font: $font, $size: 1.5rem, $line_height: 1rem, $color: $white, $font_weight: $regular);
       width: 200px;
+    }
+
+    &__selection {
+      position: absolute;
+      display: flex;
+      bottom: 0;
+      width: 100%;
+      ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+      }
+      li {
+        padding-bottom: 10px;
+        width: 60px;
+        text-align: center;
+        &.active {
+          border-bottom: 4px solid #ffffff;
+        }
+      }
+      li a {
+        font-size: 2rem;
+      }
+    }
+    &__selectionChoice {
+      @include font($font: $font, $size: 1.875rem, $line_height: 1.25rem, $color: $white, $font_weight: $regular);
     }
   }
 
@@ -118,4 +145,16 @@
     padding: 0;
   }
 
+}
+
+.carousel-cell {
+  width: 100px;
+  height: 300px;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+  opacity: 0
 }

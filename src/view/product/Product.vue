@@ -16,14 +16,24 @@
         </div>
       </div>
 
-      <div class="countrySlider__content" :style="{ 'background-image': 'url(' + backgroundImage + ')' }">
+ 
+      <div class="countrySlider__content" :style="{ 'background-image': 'url(' + slides.img + ')' }">
         <div class="countrySlider__content--filter"></div>
         <div class="countrySlider__content--wrapper">
-          <p class="countrySlider__date">1973</p>
-          <p class="countrySlider__text">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-          </div>
+          <p class="countrySlider__date">{{ slides.date }}</p>
+          <p class="countrySlider__text">{{ slides.text }}</p>
+        </div>
+      </div>
+      
+      <div class="countrySlider__selection">
+        <ul>
+          <li v-for="(dateItem, index) in dateObject">
+            <a href="" @click.prevent="slide" class="countrySlider__selectionChoice" :class="index">{{ dateItem.date }}</a>
+          </li>
+          </ul>
       </div>
     </section>
+    
     
     <section class="container-fluid no-marginpadding">
       <div class="row no-marginpadding">
