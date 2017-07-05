@@ -1,0 +1,25 @@
+.title{
+  &__big{
+    @include font($font:$font, $size:3.6rem, $line_height:3rem, $color:null, $font_weight:$regular);
+
+    strong{
+      @include font($font:$font, $size:5rem, $line_height:3rem, $color:null, $font_weight:$bold);
+    }
+
+    &--white{
+      color: $white;
+    }
+  }
+
+  &__medium{
+    @include font($font:$font, $size:3rem, $line_height:3rem, $color:$black, $font_weight:$regular);
+
+    strong{
+      @include font($font:$font, $size:3.4rem, $line_height:3rem, $color:null, $font_weight:$bold);
+    }
+  }
+
+  &__small{
+    @include font($font:$font, $size:1.8rem, $line_height:2rem, $color:$gray, $font_weight:$regular);
+  }
+}

@@ -15,7 +15,7 @@
     }
 
     p{
-      @include font($font:$font, $size:1.4rem, $line_height:2rem, $color:null, $font_weight:null);
+      margin-top: 1rem;
     }
   }
 
@@ -35,4 +35,31 @@
       height:100vh;
     }
   }
+}
+
+.revolution{
+  &__probe{
+    position: relative;
+
+    &:before{
+      content: "";
+      display: block;
+      position: absolute;
+      width: 27rem;
+      height: 27rem;
+      background-color: $magenta-button;
+      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    img{
+      width:25rem;
+    }
+  }
+}
+
+.section{
+  margin: 4.8rem 0;
 }
