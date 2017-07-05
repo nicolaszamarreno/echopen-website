@@ -135,6 +135,7 @@
             </div>
         </div>
     </section>
+    <InteractiveMap></InteractiveMap>
 </main>
 
 </template>
