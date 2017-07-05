@@ -7,6 +7,7 @@ import Product from '@/view/product/Product';
 import Presenting from '@/view/presenting/Presenting';
 import Contribute from '@/view/contribute/Contribute';
 import Contact from '@/view/contact/Contact';
+import Don from '@/view/don/Don';
 
 // components
 import Header from '@/components/header/Header';
@@ -57,6 +58,15 @@ export default new Router({
       name: 'Contact',
       components: {
         default: Contact,
+        header: Header,
+        footer: Footer,
+      },
+    },
+    {
+      path: '/don',
+      name: 'Don',
+      components: {
+        default: Don,
         header: Header,
         footer: Footer,
       },

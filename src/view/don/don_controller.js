@@ -1,5 +1,5 @@
-export default{
-  name: 'navigation',
+export default {
+  name: 'don',
   data() {
     return {
     };
