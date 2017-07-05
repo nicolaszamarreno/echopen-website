@@ -109,7 +109,7 @@ https://developer.yahoo.com/blogs/ydn/clip-hidden-content-better-accessibility-5
   font-family: $font;
   font-size: $size;
   font-weight: $font_weight;
-  line-height: $line_height;
+  line-height: $size*1.5;
   color: $color;
 }
 
