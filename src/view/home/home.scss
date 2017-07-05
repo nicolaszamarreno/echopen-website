@@ -8,25 +8,9 @@
   background-size: cover;
 
   &__baseline{
-    color: $white;
-
-    span{
-      @include font($font:$font, $size:5rem, $line_height:3rem, $color:null, $font_weight:null);
-    }
-
     p{
-      @include font($font:$font, $size:1.4rem, $line_height:2rem, $color:null, $font_weight:null);
       margin-top: 1rem;
     }
-  }
-
-  &__button{
-    @include font($font:$font, $size:1.6rem, $line_height:2rem, $color:$blue-brand, $font_weight:null);
-    display: inline-block;
-    background: $white;
-    margin-top: 3rem;
-    padding: .8rem 6rem;
-    border-radius: .2rem;
   }
 
   .container{
@@ -48,7 +32,7 @@
       position: absolute;
       width: 80%;
       height: 80%;
-      background-color: $magenta-bg;
+      background-color: $magenta-button;
       border-radius: 50%;
       top: 50%;
       left: 50%;

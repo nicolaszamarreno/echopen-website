@@ -3,11 +3,11 @@
 /*****************/
 @at-root{
 
-    * {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-    }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
 
   html, body {
     font-size: 62.5%;
@@ -29,81 +29,64 @@
   }
 
 
-    *, *::before, *::after
-    {
-        background-repeat: no-repeat;
-    }
+  *, *::before, *::after
+  {
+    background-repeat: no-repeat;
+  }
 
   h1, h2, h3, h4 {
     margin: 0;
+    padding: 0;
   }
 
-  h1
+  p
   {
-    font-size: 3.2rem;
+    margin:0;
+    padding: 0;
   }
 
-  h2
+
+  svg,img
   {
-    font-size: 2.4rem;
+    width: 100%;
+    max-width:100%;
   }
 
-  h3
+
+  ul
   {
-    font-size: 2rem;
+    margin:0;
+    padding:0;
   }
 
-  h4
+
+  li
   {
-    font-size: 1.4rem;
+    list-style: none;
   }
 
-    p
-    {
-        margin:0;
+
+  a
+  {
+    text-decoration:none;
+    color: inherit;
+
+    &:hover{
+      text-decoration: none;
     }
+  }
 
 
-    svg,img
-    {
-        width: 100%;
-        max-width:100%;
-    }
+  blockquote
+  {
+    padding:0;
+    margin:0;
+  }
 
-
-    ul
-    {
-        margin:0;
-        padding:0;
-    }
-
-
-    li
-    {
-        list-style: none
-    }
-
-
-    a
-    {
-        text-decoration:none;
-        color: inherit;
-        &:hover{
-            text-decoration: none;
-        }
-    }
-
-
-    blockquote
-    {
-        padding:0;
-        margin:0;
-    }
-
-    button:focus,
-    input:focus {
-        outline:0;
-    }
+  button:focus,
+  input:focus {
+    outline:0;
+  }
 }
 
 
@@ -113,27 +96,27 @@
 
 .overflow
 {
-    overflow:hidden;
+  overflow:hidden;
 }
 
 .overflow-x
 {
-    overflow-x:hidden;
+  overflow-x:hidden;
 }
 
 
 .uppercase
 {
-    text-transform:uppercase;
+  text-transform:uppercase;
 }
 
 
 .hide-for-viewer
 {
-    @include hide-for-viewer;
+  @include hide-for-viewer;
 }
 
 ::selection{
-    background: $black;
-    color: $white;
+  background: $black;
+  color: $white;
 }

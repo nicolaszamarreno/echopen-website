@@ -4,21 +4,21 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-8 hero__baseline">
-                    <h1>
-                        La <span>communauté Échopen</span> s’engage à sauver des vies!
+                    <h1 class="title__big title__big--white">
+                        La <strong>communauté Échopen</strong> s’engage à sauver des vies!
                     </h1>
-                    <p>
+                    <p class="text__regular text__regular--white">
                         Iam in altera philosophiae parte. quae est quaerendi ac disserendi, quae logikh dicitur, iste vester plane, ut mihi quidem videtur, inermis ac nudus est. tollit definitiones, nihil de dividendo ac partiendo docet, non quo modo efficiatur concludaturque ratio tradit, non qua via captiosa solvantur ambigua distinguantur ostendit; iudicia rerum in sensibus ponit, quibus si semel aliquid falsi pro vero probatum sit, sublatum esse omne iudicium veri et falsi putat.
                     </p>
-                    <a href="" class="hero__button">Découvrir</a>
+                    <a href="" class="button__regular">Découvrir</a>
                 </div>
             </div>
         </div>
     </section>
     <section class="revolution section">
         <div class="container">
-            <h2 class="text-center">Un produit <span>révolutionnaire</span></h2>
-            <h4 class="text-center">Le futur est à notre portée</h4>
+            <h2 class="title__medium text-center">Un produit <strong>révolutionnaire</strong></h2>
+            <h4 class="title__small text-center">Le futur est à notre portée</h4>
             <div class="row">
                 <div class="col-md-4">
                     <div class="revolution__probe">

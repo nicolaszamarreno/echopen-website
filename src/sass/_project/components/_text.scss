@@ -1,0 +1,9 @@
+.text{
+  &__regular{
+    @include font($font:$font, $size:1.6rem, $line_height:2rem, $color:$black, $font_weight:null);
+
+    &--white{
+      color: $white;
+    }
+  }
+}
