@@ -98,15 +98,16 @@
   .copyright {
     display: flex;
     li {
-      font-size: 9px;
+      font-size: 12px;
       margin-left: 10px;
     }
   }
 
   .socialnetwork {
     display: flex;
+    justify-content: space-between;
     li {
-      margin-left: 10px;
+      //margin-left: 10px;
     }
   }
 

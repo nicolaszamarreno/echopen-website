@@ -17,6 +17,16 @@
     }
   }
 
+  &__don {
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+  }
+
   &--fixed {
     position: fixed !important;
     background-color: white;
@@ -28,17 +38,15 @@
     .header__nav ul li a {
       color: $black;
     }
+
+    .header__don {
+      color: #D81D60;
+      border-bottom: 2px solid #D81D60;
+    }
   }
 
   &__logo {
     width: 12rem;
-  }
-
-  &__don {
-    text-align: center;
-    font-size: 17px;
-    color: #D81D60;
-    text-transform: uppercase;
   }
 
   &__nav {
@@ -60,14 +68,15 @@
         top: 22px;
         span {
           transition: 0.2s;
+          background: #000;
           &:first-child {
             transform: rotate(45deg);
             top: 10px;
           }
-          &:nth-child(2){
+          &:nth-child(2) {
             display: none;
           }
-          &:last-child{
+          &:last-child {
             transform: rotate(-45deg);
             top: 10px;
           }
@@ -76,7 +85,7 @@
       span {
         width: 100%;
         height: 2px;
-        background: #000000;
+        background: $white;
         left: 0;
         transition: 0.2s;
         &:first-child {
@@ -167,6 +176,12 @@
           }
         }
       }
+    }
+  }
+
+  &--fixed {
+    .header__burger span {
+      background: black;
     }
   }
 

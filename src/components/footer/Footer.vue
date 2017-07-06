@@ -18,17 +18,24 @@
         <div class="hidden-xs-down col-md-12 col-lg-3">
           <newsletter></newsletter>
         </div>
-        <div class="col-9 col-sm-10 col-md-10 col-lg-10 no-padding">
+        <div class="col-9 col-sm-10 col-md-11 col-lg-11">
           <ul class="copyright">
           	<li>Licenses</li>
           	<li>.Echopen</li>
           </ul>
         </div>
-        <div class="col-3 col-sm-2 col-md-2 col-lg-2 no-padding">
+        <div class="col-3 col-sm-2 col-md-1 col-lg-1">
           <ul class="socialnetwork">
-            <li>O</li>
-            <li>O</li>
-            <li>O</li>
+            <li>
+              <a href="https://www.facebook.com/groups/echopen/">
+                <img alt="Facebook" :src="social_network.facebook">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/">
+                <img alt="Instagram" :src="social_network.insta">
+              </a>
+            </li>
           </ul>
         </div>
       </div>
