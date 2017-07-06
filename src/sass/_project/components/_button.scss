@@ -5,8 +5,8 @@
   border-radius: 10rem;
 
     &--blue{
-      background: $blue-botton;
-      @include box-shadow-strong($blue-botton);
+      background: $blue-button;
+      @include box-shadow-strong($blue-button);
     }
 
     &--white{

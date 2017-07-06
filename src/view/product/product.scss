@@ -14,7 +14,7 @@
       text-align: center;
       height: 56px;
       &.afrique {
-        background: $blue-botton;
+        background: $blue-button;
       }
       &.europe {
         background: $cyan;
@@ -128,7 +128,7 @@
     &__button {
       @include font($font: $font, $size: 1.7rem, $line_height: 0.5625rem, $color: $white, $font_weight: $semi-bold);
       background: $white;
-      color: $blue-botton;
+      color: $blue-button;
       border: none;
       padding: 12px 25px;
       border-radius: 25px;
