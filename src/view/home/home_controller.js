@@ -1,26 +1,27 @@
 import Pin from '@/components/pin/Pin';
 import Banner from '@/components/banner/Banner';
+import InteractiveMap from '@/components/interactiveMap/InteractiveMap';
 
 export default {
   name: 'home',
   components: {
     pin: Pin,
     banner: Banner,
+    InteractiveMap,
   },
   data() {
     return {
     };
   },
   mounted() {
-    let $nav = document.querySelector('header');
+    const $nav = document.querySelector('header');
     window.addEventListener('scroll', () => {
-      let pos = 100;
+      const pos = 100;
 
-      if(document.body.scrollTop > pos){
+      if (document.body.scrollTop > pos) {
         $nav.classList.add('header--fixed');
-      }
-      else if(document.body.scrollTop < pos){
-          $nav.classList.remove('header--fixed');
+      } else if (document.body.scrollTop < pos) {
+        $nav.classList.remove('header--fixed');
       }
     });
   },
