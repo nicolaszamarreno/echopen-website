@@ -15,7 +15,7 @@
                           <span></span>
                           <span></span>
                         </div>
-                        <navigation></navigation>
+                        <navigation @incrementCount="incrementC"></navigation>
                     </nav>
                 </div>
             </div>

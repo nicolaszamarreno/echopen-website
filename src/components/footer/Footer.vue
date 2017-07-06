@@ -6,7 +6,7 @@
           <div class="logo">
             <img alt="a" class="footerLogo" :src="img">
           </div>
-        </div>
+        </div>xxx
         <div class="hidden-xs-down col-md-12 col-lg-7">
           <div class="navigation">
             <p class="navigation__title">Menu</p>

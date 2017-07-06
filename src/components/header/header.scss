@@ -54,10 +54,12 @@
         display: none;
       }
       &.active {
-        z-index: 1;
+        z-index: 3;
+        position: fixed;
+        right: 15px;
+        top: 22px;
         span {
           transition: 0.2s;
-          background: #000000;
           &:first-child {
             transform: rotate(45deg);
             top: 10px;
@@ -74,7 +76,7 @@
       span {
         width: 100%;
         height: 2px;
-        background: white;
+        background: #000000;
         left: 0;
         transition: 0.2s;
         &:first-child {
@@ -100,6 +102,7 @@
       position: fixed;
       top: 0;
       left: 0;
+      z-index: 2;
       &.active {
         display: block;
         background: rgba(255, 255, 255, 0.9);
