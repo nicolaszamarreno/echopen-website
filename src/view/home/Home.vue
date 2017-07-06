@@ -91,30 +91,9 @@
             {picture: 'home_developpeur.svg', title: 'Developpeur', text: 'Petit blabla comment ca va bien today tu as vu il fait beau dehors et on mange bien a la cantine.', link: ''}
         ]"></pin>
     </section>
-    <section class="home-conference">
-        <svg class="home-conference__patternTop" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 63.34">
-          <path d="M0,0H1280V63.34Q344.52-26.88,0,35.11Z" transform="translate(0 0)"/>
-        </svg>
-        <div class="row no-gutters align-items-center">
-            <div class="col-lg-6 col-md-6">
-                <img class="home-picture" src="../../assets/home_picture.png" alt="un projet qui bouge">
-            </div>
-            <div class="col-lg-4 col-md-6 pl-md-5 home-conference__desc">
-                <h1 class="home-conference__title">
-                    1<sup>ère</sup> conférence à <strong>RIO !</strong>
-                </h1>
-                <p class="home-conference__text">
-                    Iam in altera philosophiae parte. quae est quaerendi ac disserendi, quae logikh dicitur, iste vester plane, ut mihi quidem videtur, inermis ac nudus est. tollit definitiones, nihil de dividendo ac partiendo docet, non quo modo efficiatur concludaturque ratio tradit, non qua via captiosa solvantur ambigua distinguantur ostendit; iudicia rerum in sensibus ponit, quibus si semel aliquid falsi pro vero probatum sit, sublatum esse omne iudicium veri et falsi putat.
-                </p>
-                <div class="text-center text-sm-left">
-                    <a href="" class="button button--white mt-5">Découvrir</a>
-                </div>
-            </div>
-        </div>
-        <svg class="home-conference__patternBottom" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 77.1">
-            <path d="M0,13.2Q480.75,114.75,1280,0V77.1H0Z" transform="translate(0 0)"/>
-        </svg>
-    </section>
+    <banner :parameters="[
+            {picture: 'home_donateur.svg', title: '1<sup>ère</sup> conférence à <strong>RIO !</strong>', text: 'Petit blabla comment ca va bien today tu as vu il fait beau dehors et on mange bien a la cantine.', link: ''}
+        ]"></banner>
      <section class="home-newsletter">
         <div class="container">
             <div class="row align-items-center">
@@ -151,7 +130,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mt-5 ">
                 <img class="home-picture" src="../../assets/home_picture.png" alt="un projet qui bouge">
             </div>
         </div>

@@ -1,0 +1,50 @@
+.banner{
+    background: #9f0054; /* Old browsers */
+    background: -moz-linear-gradient(left, #9f0054 0%, #ef197d 71%, #ef197d 75%, #ff972e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #9f0054 0%,#ef197d 71%,#ef197d 75%,#ff972e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #9f0054 0%,#ef197d 71%,#ef197d 75%,#ff972e 100%), url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiI…IgaWQ9IlJlY3RhbmdsZS0zIj48L3BhdGg+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=) center top / contain no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    position: relative;
+    padding: 10rem 0;
+    overflow: hidden;
+
+    &__desc{
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+
+        @include mq($from: md){
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    &__title{
+        @include font($font:$font, $size:4.4rem, $line_height:3rem, $color:$white, $font_weight:$regular);
+        margin-bottom: 2rem;
+
+        strong{
+            font-weight: $bold;
+        }
+    }
+
+    &__text{
+        @include font($font:$font, $size:1.4rem, $line_height:2rem, $color:$white, $font_weight:$regular);
+    }
+
+    &__patternTop{
+        position: absolute;
+        top: 0;
+
+        path{
+            fill: $white;
+        }
+    }
+
+    &__patternBottom{
+        position: absolute;
+        bottom: 0;
+
+        path{
+            fill: $white;
+        }
+    }
+}

@@ -1,9 +1,11 @@
 import Pin from '@/components/pin/Pin';
+import Banner from '@/components/banner/Banner';
 
 export default {
   name: 'home',
   components: {
     pin: Pin,
+    banner: Banner,
   },
   data() {
     return {
