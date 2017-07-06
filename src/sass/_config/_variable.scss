@@ -21,8 +21,14 @@ $light: 300;
 $regular: 400;
 $semi-bold: 600;
 $bold: 700;
-$black: 900;
 
+/****************/
+/* WIDTH CONTAINER */
+/****************/
+$container-sm: 540px;
+$container-md: 720px;
+$container-lg: 960px;
+$container-xl: 1140px;
 
 /****************/
 /* Media Queries with _Sass-mq_ */
@@ -109,10 +115,10 @@ $grid-breakpoints: (
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-    sm: 540px,
-    md: 720px,
-    lg: 960px,
-    xl: 1140px
+    sm: $container-sm,
+    md: $container-md,
+    lg: $container-lg,
+    xl: $container-xl
 ) !default;
 @include _assert-ascending($container-max-widths, "$container-max-widths");
 

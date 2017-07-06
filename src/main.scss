@@ -9,12 +9,14 @@
 @import './sass/_project/components/title';
 @import './sass/_project/components/text';
 
-
 @import './sass/_project/grid/mixins';
 @import './sass/_project/grid/utilities';
 @import './sass/_project/grid/grid';
 
+@import './sass/_project/plugins/flickity';
+
 @import './components/header/header';
+@import './components/pin/pin';
 @import './view/home/home';
 
 
