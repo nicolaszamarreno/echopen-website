@@ -1,5 +1,5 @@
 import Navigation from '@/components/navigation/Navigation';
-import Logo from '@/assets/logo2x.png';
+import Logo from '@/assets/logo.svg';
 
 export default{
   name: 'header',
@@ -7,7 +7,7 @@ export default{
     return {
       count: 0,
       windowsWidth: '',
-      // image: Logo,
+      logo: Logo,
     };
   },
   components: {
@@ -31,7 +31,6 @@ export default{
         nav.classList = '';
         burger.classList = 'header__burger';
         body.classList = '';
-  
       }
       this.count++;
       console.log(this.count);

@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-4 col-md-3">
-                    <img class="header__logo" src="../../../src/assets/logo2x.png" alt="EchOpen">
+                    <img class="header__logo" alt="EchOpen" :src="logo">
                 </div>
                 <div class="col-5 col-md-7 hidden-lg-up">
                   <p class="header__don">Faire un don</p>
