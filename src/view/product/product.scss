@@ -2,7 +2,6 @@
   .countrySlider {
     position: relative;
     overflow: hidden;
-
     &__container {
       position: absolute;
       width: 100%;
@@ -181,6 +180,10 @@
 
 .product-banner{
   padding: 8rem 0;
+  &:before{
+    content:'';
+
+  }
 }
 
 .product-pin{

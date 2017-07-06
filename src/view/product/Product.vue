@@ -1,8 +1,6 @@
 <template lang="html">
   <div class="product">
-    <section class="countrySlider">
-    
-      <div class="container-fluid countrySlider__container">
+  <div class="container-fluid countrySlider__container">
         <div class="row countrySlider__tab">
           <div class="col-4 countrySlider__tabItem afrique active">
             <p class="countrySlider__tabItemText">#Afrique</p>
@@ -15,13 +13,12 @@
           </div>
         </div>
       </div>
-'
+    <section class="countrySlider">
       <div class="countrySlider__content">
         <div v-for="(el, index) in dateObject" class="countrySlider__item" :style="{ 'background-image': 'url(' + el.img + ')' }" >
             <p class="countrySlider__date">{{ el.date }}</p>
             <p class="countrySlider__text">{{ el.text }}</p>
         </div>
-
       </div>
       
         <div class="countrySlider__selection">

@@ -4,7 +4,7 @@
             <div class="pin__item">
                 <div class="pin__wrapper">
                     <figure class="pin__picture">
-                        <img :src="'assets/' + options[0].picture" alt="Développeur">
+                        <img :src="'../assets/' + options[0].picture" alt="Développeur">
                     </figure>
                     <figcaption class="pin__legend">
                         {{ options[0].title }}
