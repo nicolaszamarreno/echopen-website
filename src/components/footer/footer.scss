@@ -55,7 +55,11 @@
       }
     }
     a {
-      font-size: 13px;
+      @include font($font:$font, $size:14px, $line_height:2rem, $color:white, $font_weight:null);
+
+      @include mq($from: $lg) {
+        @include font($font:$font, $size:1.6rem, $line_height:2rem, $color:white, $font_weight:$regular);
+      };
       &:hover {
         opacity: 0.6;
       }

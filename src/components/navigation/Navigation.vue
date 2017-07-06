@@ -1,4 +1,5 @@
 <template lang="html">
+<div class="navigation">
     <ul>
         <li>
             <router-link :to="{name: 'Home'}">Accueil</router-link>
@@ -19,6 +20,7 @@
             <router-link :to="{name: 'Don'}">Faire un don</router-link>
         </li>
     </ul>
+  </div>
 </template>
 
 
