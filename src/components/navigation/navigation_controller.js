@@ -4,4 +4,6 @@ export default{
     return {
     };
   },
+  methods: {
+  },
 };
