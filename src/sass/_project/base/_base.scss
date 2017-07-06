@@ -9,29 +9,25 @@
         box-sizing: border-box;
     }
 
-    html, body{
-        margin: 0;
-        padding: 0;
-        font-size: 62.5%;
-        overflow: hidden;
-    }
+  html, body {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
 
-    html
-    {
-        position: relative;
-        color: $black;
-        background-color: $white;
-        height: 100%;
-        -webkit-font-smoothing: antialiased;
-    }
+  html {
+    position: relative;
+    color: $black;
+    background-color: $white;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+  }
 
-
-    body
-    {
-        height: 100%;
-        background-color: $white;
-        font-family: $font;
-    }
+  body {
+    background-color: $white;
+    font-family: $font;
+  }
 
 
     *, *::before, *::after
@@ -39,35 +35,15 @@
         background-repeat: no-repeat;
     }
 
-
-    h1,h2,h3,h4
-    {
-        margin: 0;
-    }
-
-  h1
-  {
-    font-size: 3.2rem;
-  }
-
-  h2
-  {
-    font-size: 2.4rem;
-  }
-
-  h3
-  {
-    font-size: 2rem;
-  }
-
-  h4
-  {
-    font-size: 1.4rem;
+  h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
   }
 
     p
     {
         margin:0;
+
     }
 
 
@@ -85,11 +61,10 @@
     }
 
 
-    li
-    {
-        list-style: none;
-        font-size: 1.6rem;
-    }
+  li
+  {
+    list-style: none;
+  }
 
 
     a
@@ -112,20 +87,6 @@
     input:focus {
         outline:0;
     }
-}
-
-
-
-
-/*****************/
-/****** MAIN *****/
-/*****************/
-
-.main
-{
-    position: relative;
-    height: 100%;
-    overflow-x: hidden;
 }
 
 

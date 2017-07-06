@@ -1,0 +1,17 @@
+.text{
+  &__regular{
+    @include font($font:$font, $size:14px, $line_height:2rem, $color:gray, $font_weight:null);
+
+    @include mq($from: $lg) {
+      @include font($font:$font, $size:1.6rem, $line_height:2rem, $color:$gray, $font_weight:$regular);
+    };
+
+    &--white{
+      color: $white;
+    }
+
+    &--magenta {
+      color: $magenta-button;
+    }
+  }
+}
