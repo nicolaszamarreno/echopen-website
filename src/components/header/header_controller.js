@@ -5,8 +5,8 @@ export default{
   name: 'header',
   data() {
     return {
-      assetsPath: Logo,
       count: 0,
+      // image: Logo,
     };
   },
   components: {
@@ -25,6 +25,11 @@ export default{
         burger.classList = 'header__burger';
       }
       this.count++;
+      console.log(this.count);
+    },
+    incrementC() {
+      this.count++;
+      console.log(this.count);
     },
   },
 };

@@ -4,19 +4,19 @@
         <li>
             <router-link :to="{name: 'Home'}">Accueil</router-link>
         </li>
-        <li>
+        <li @click="closeMenu">
             <router-link :to="{name: 'Presenting'}">Qui sommes-nous ?</router-link>
         </li>
-        <li>
+        <li @click="closeMenu">
             <router-link :to="{name: 'Product'}">Le Produit</router-link>
         </li>
-        <li>
+        <li @click="closeMenu">
             <router-link :to="{name: 'Contribute'}">Contribuer</router-link>
         </li>
-        <li>
+        <li @click="closeMenu">
             <router-link :to="{name: 'Contact'}">Contact</router-link>
         </li>
-        <li>
+        <li @click="closeMenu">
             <router-link :to="{name: 'Don'}">Faire un don</router-link>
         </li>
     </ul>

@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "flickity": "^2.0.8",
+    "flickity-as-nav-for": "^2.0.1",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
     "scss-loader": "^0.0.1",

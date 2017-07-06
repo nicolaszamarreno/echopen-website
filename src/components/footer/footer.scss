@@ -79,6 +79,7 @@
     &__input {
       padding: 5px;
       width: 170px;
+      border: none;
     }
     &__button {
       border-radius: 50%;
@@ -90,6 +91,7 @@
       top: 1px;
       cursor: pointer;
       background: #d81d60;
+      display: none;
     }
   }
 

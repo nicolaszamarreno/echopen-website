@@ -17,21 +17,42 @@
       </div>
 
  
-      <div class="countrySlider__content" :style="{ 'background-image': 'url(' + slides.img + ')' }">
-        <div class="countrySlider__content--filter"></div>
-        <div class="countrySlider__content--wrapper">
+      <!--<div class="countrySlider__content" :style="{ 'background-image': 'url(' + slides.img + ')' }">
+        <div class="countrySlider__content&#45;&#45;filter"></div>
+        <div class="countrySlider__content&#45;&#45;wrapper">
           <p class="countrySlider__date">{{ slides.date }}</p>
           <p class="countrySlider__text">{{ slides.text }}</p>
         </div>
+      </div>-->
+'
+      <div class="countrySlider__content">
+        <div v-for="(el, index) in dateObject" class="countrySlider__item" :style="{ 'background-image': 'url(' + el.img + ')' }" >
+            <p class="countrySlider__date">{{ el.date }}</p>
+            <p class="countrySlider__text">{{ el.text }}</p>
+        </div>
+
       </div>
       
-      <div class="countrySlider__selection">
-        <ul>
-          <li v-for="(dateItem, index) in dateObject">
-            <a href="" @click.prevent="slide" class="countrySlider__selectionChoice" :class="index">{{ dateItem.date }}</a>
-          </li>
-          </ul>
-      </div>
+        <div class="countrySlider__selection">
+          <div v-for="(dateItem, index) in dateObject" class="countrySlider__selectionChoice">{{ dateItem.date }}
+          </div>
+        </div>
+    </section>
+
+    <section class="product-banner">
+        <banner :parameters="[
+            {picture: 'home_rio.png', title: '1<sup>ère</sup> conférence à <strong>RIO !</strong>', text: 'Petit blabla comment ca va bien today tu as vu il fait beau dehors et on mange bien a la cantine.', link: ''}
+        ]"></banner>
+    </section>
+
+    <section class="product-pin">
+        <h2 class="title__medium text-center mb-5">Ils nous ont <strong>aidés</strong></h2>
+
+        <pin :options="[
+            {picture: 'home_donateur.svg', title: 'Donateur', text: 'Petit blabla comment ca va bien today tu as vu il fait beau dehors et on mange bien a la cantine.', link: ''},
+            {picture: 'home_contributeur.svg', title: 'Contributeur', text: 'Petit blabla comment ca va bien today tu as vu il fait beau dehors et on mange bien a la cantine.', link: ''},
+            {picture: 'home_developpeur.svg', title: 'Developpeur', text: 'Petit blabla comment ca va bien today tu as vu il fait beau dehors et on mange bien a la cantine.', link: ''}
+        ]"></pin>
     </section>
     
     
@@ -52,5 +73,5 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
+<style lang="scss">
 </style>
