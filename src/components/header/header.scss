@@ -25,6 +25,8 @@
     font-weight: bold;
     padding-bottom: 5px;
     border-bottom: 2px solid white;
+    width: 100px;
+    margin: auto;
   }
 
   &--fixed {
@@ -63,9 +65,10 @@
       }
       &.active {
         z-index: 3;
-        position: fixed;
-        right: 15px;
-        top: 22px;
+        position: relative;
+        //position: fixed;
+        //right: 15px;
+        //top: 22px;
         span {
           transition: 0.2s;
           background: #000;
