@@ -23,3 +23,17 @@
 
 @import './view/home/home';
 @import './view/product/product';
+
+/* Les animations d'entrée (« enter ») et de sortie (« leave »)  */
+/* peuvent utiliser differentes fonctions de durée et de temps.  */
+.slide-enter-active {
+    transition: all 1s ease;
+}
+.slide-leave-active {
+    transition: all 1s .5s ease;
+}
+.slide-enter, .slide-leave-to
+    /* .slide-fade-leave-active for <2.1.8 */ {
+    transform: translateY(-3rem);
+    opacity: 0;
+}

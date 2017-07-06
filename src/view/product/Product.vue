@@ -1,4 +1,5 @@
 <template lang="html">
+<transition name="slide">
   <div class="product">
   <div class="container-fluid countrySlider__container">
         <div class="row countrySlider__tab">
@@ -55,6 +56,8 @@
       </div>
     </section>
   </div>
+</transition>
+
 </template>
 
 <script src="./product_controller.js">
