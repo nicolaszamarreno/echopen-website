@@ -1,51 +1,47 @@
-// import Flickity from 'flickity';
+import Flickity from 'flickity';
+import asNavFor from 'flickity-as-nav-for';
 import Afrique from '@/assets/afrique.jpg';
 import Asie from '@/assets/asie.jpg';
+import Pin from '@/components/pin/Pin';
+import Banner from '@/components/banner/Banner';
 import BePartner from './bePartner/BePartner';
 import BeContributor from './beContributor/BeContributor';
+
 
 export default {
   name: 'product',
   data() {
     return {
-      backgroundImage: Afrique,
-      slides: {},
-      count: 1,
       dateObject: {
         1: {
           id: 1,
           date: 1973,
           text: 'consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
           img: Afrique,
-          isActive: false,
         },
         2: {
           id: 2,
           date: 1998,
           text: 'consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
           img: Afrique,
-          isActive: false,
         },
         3: {
           id: 3,
           date: 2007,
           text: 'consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
           img: Asie,
-          isActive: false,
         },
         4: {
           id: 4,
           date: 2018,
           text: 'consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
           img: Afrique,
-          isActive: true,
         },
         5: {
           id: 5,
           date: 2025,
           text: 'consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
           img: Afrique,
-          isActive: false,
         },
       },
     };
@@ -53,21 +49,24 @@ export default {
   components: {
     bepartner: BePartner,
     becontributor: BeContributor,
+    pin: Pin,
+    banner: Banner,
   },
-  created() {
-    setInterval(() => {
-      this.slides = this.dateObject[this.count];
-      this.slides.isActive = true;
-      this.count++;
-      if (this.count > 5) {
-        this.count = 1;
-      }
-    }, 1000);
+  mounted() {
+    const productSlider = new Flickity('.countrySlider__content', {
+      prevNextButtons: false,
+      pageDots: false,
+      autoPlay: 6000,
+
+    });
+
+    const productNav = new Flickity('.countrySlider__selection', {
+      asNavFor: '.countrySlider__content',
+      contain: false,
+      pageDots: false,
+      prevNextButtons: false,
+    });
   },
   methods: {
-    slide(e) {
-      this.count = e.target.getAttribute('class');
-      this.count = this.count.slice(-1)[0];
-    },
   },
 };
