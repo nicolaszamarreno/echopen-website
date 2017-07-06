@@ -14,12 +14,12 @@ export default{
       groupCells: true,
     });
 
-    const observer = new IntersectionObserver((observables) => {
-      observables.forEach((observable) => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
               // L'élément devient visible
-        if (observable.intersectionRatio > 0.5) {
-          observable.target.classList.remove('not-visible');
-          observer.unobserve(observable.target);
+        if (entry.intersectionRatio > 0.5) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
         }
       });
     }, {
@@ -29,7 +29,6 @@ export default{
 // On observe nos éléments
     const items = document.querySelectorAll('.main-carousel');
     items.forEach((item) => {
-      item.classList.add('not-visible');
       observer.observe(item);
     });
   },

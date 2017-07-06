@@ -331,3 +331,12 @@
     width: auto;
   }
 }
+
+.main-carousel{
+  transition: 1s all;
+  transform: translateY(6rem);
+
+  &.visible{
+      transform: translateY(0);
+  }
+}
