@@ -110,6 +110,12 @@
     background-size: 100% 100%;
   }
 
+  .text__regular{
+    @include mq($from: sm){
+      width: 70%;
+    }
+  }
+
   .row, .container{
     height: 80rem;
   }
@@ -276,5 +282,13 @@
   @include mq($from: xl){
     top: -20rem;
     margin-bottom: -10rem;
+  }
+}
+
+.home-picture{
+  width: 80%;
+
+  @include mq($from: md){
+    width: auto;
   }
 }

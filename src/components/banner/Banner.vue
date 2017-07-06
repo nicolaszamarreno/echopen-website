@@ -4,7 +4,7 @@
               <path d="M0,0H1280V63.34Q344.52-26.88,0,35.11Z" transform="translate(0 0)"/>
             </svg>
             <div class="row no-gutters align-items-center">
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-6 col-md-6 text-left">
                     <img class="home-picture" :src="'assets/' + parameters[0].picture" alt="un projet qui bouge">
                 </div>
                 <div class="col-lg-4 col-md-6 pl-md-5 banner__desc">

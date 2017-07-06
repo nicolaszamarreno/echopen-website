@@ -1,5 +1,5 @@
 <template lang="html">
-<main class="main">
+<main class="main home">
     <section class="home-hero">
         <div class="container">
             <div class="row align-items-center">
@@ -71,7 +71,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-12">
-                    <h1 class="title__big title__big--white">
+                    <h1 class="title__big title__big--white mb-4">
                     <strong>Des milliards de personne a sauver</strong>
                     </h1>
                     <p class="text__regular text__regular--white">
@@ -92,7 +92,7 @@
         ]"></pin>
     </section>
     <banner :parameters="[
-            {picture: 'home_donateur.svg', title: '1<sup>ère</sup> conférence à <strong>RIO !</strong>', text: 'Petit blabla comment ca va bien today tu as vu il fait beau dehors et on mange bien a la cantine.', link: ''}
+            {picture: 'home_rio.png', title: '1<sup>ère</sup> conférence à <strong>RIO !</strong>', text: 'Petit blabla comment ca va bien today tu as vu il fait beau dehors et on mange bien a la cantine.', link: ''}
         ]"></banner>
      <section class="home-newsletter">
         <div class="container">
@@ -110,7 +110,10 @@
         <h2 class="title__medium text-center">ECHOPEN, Un projet qui <strong>bouge</strong></h2>
         <h4 class="title__small text-center">Le futur est à notre portée</h4>
 
-        <div class="row align-items-center no-gutters">
+        <div class="row align-items-center no-gutters row flex-row-reverse">
+            <div class="col-md-6 mt-5 text-right">
+                <img class="home-picture" src="../../assets/home_nenes.png" alt="un projet qui bouge">
+            </div>
             <div class="col-md-6 pr-lg-5 text-right">
                 <div class="home-move__wrapper">
                     <h1 class="home-move__title">
@@ -129,9 +132,6 @@
                         <a href="" class="button button--blue mt-3">Découvrir</a>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 mt-5 ">
-                <img class="home-picture" src="../../assets/home_picture.png" alt="un projet qui bouge">
             </div>
         </div>
     </section>
