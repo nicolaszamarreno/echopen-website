@@ -5,7 +5,7 @@ const Characters = [
     s: 60,
     name: 'Jungle',
     imgPath: 'https://static.pexels.com/photos/211050/pexels-photo-211050.jpeg',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
     x: 20,
@@ -13,7 +13,7 @@ const Characters = [
     s: 80,
     name: 'Jungle',
     imgPath: 'https://static.pexels.com/photos/200664/pexels-photo-200664.jpeg',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
     x: 40,
@@ -21,7 +21,7 @@ const Characters = [
     s: 75,
     name: 'Jungle',
     imgPath: 'https://static.pexels.com/photos/211050/pexels-photo-211050.jpeg',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
     x: 50,
@@ -29,7 +29,7 @@ const Characters = [
     s: 50,
     name: 'Jungle',
     imgPath: 'https://static.pexels.com/photos/200664/pexels-photo-200664.jpeg',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
     x: 60,
@@ -37,7 +37,7 @@ const Characters = [
     s: 90,
     name: 'Jungle',
     imgPath: 'https://static.pexels.com/photos/211050/pexels-photo-211050.jpeg',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
     x: 75,
@@ -45,7 +45,7 @@ const Characters = [
     s: 90,
     name: 'Jungle',
     imgPath: 'https://static.pexels.com/photos/200664/pexels-photo-200664.jpeg',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
     x: 73,
@@ -53,7 +53,7 @@ const Characters = [
     s: 90,
     name: 'Jungle',
     imgPath: 'https://static.pexels.com/photos/211050/pexels-photo-211050.jpeg',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
     x: 57,
@@ -61,7 +61,7 @@ const Characters = [
     s: 50,
     name: 'Jungle',
     imgPath: 'https://static.pexels.com/photos/200664/pexels-photo-200664.jpeg',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
     x: 50,
@@ -69,7 +69,7 @@ const Characters = [
     s: 60,
     name: 'Jungle',
     imgPath: 'https://static.pexels.com/photos/211050/pexels-photo-211050.jpeg',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
     x: 80,
@@ -77,7 +77,7 @@ const Characters = [
     s: 60,
     name: 'Jungle',
     imgPath: 'https://static.pexels.com/photos/200664/pexels-photo-200664.jpeg',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
     x: 28,
@@ -85,7 +85,7 @@ const Characters = [
     s: 70,
     name: 'Jungle',
     imgPath: 'https://static.pexels.com/photos/211050/pexels-photo-211050.jpeg',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
     x: 30,
@@ -93,7 +93,7 @@ const Characters = [
     s: 45,
     name: 'Jungle',
     imgPath: 'https://static.pexels.com/photos/200664/pexels-photo-200664.jpeg',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
     x: 65,
@@ -101,7 +101,7 @@ const Characters = [
     s: 60,
     name: 'Jungle',
     imgPath: 'https://static.pexels.com/photos/211050/pexels-photo-211050.jpeg',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
     x: 15,
@@ -109,7 +109,7 @@ const Characters = [
     s: 50,
     name: 'Jungle',
     imgPath: 'https://static.pexels.com/photos/200664/pexels-photo-200664.jpeg',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
 ];
 
