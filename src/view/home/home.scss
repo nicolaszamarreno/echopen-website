@@ -1,4 +1,4 @@
-.hero {
+.home-hero {
   height: 100vh;
   background-image: url("https://alexwyke.files.wordpress.com/2013/05/shuttershock-medical-devices-corp-rep.jpg");
   background-color: $blue-brand;
@@ -132,6 +132,73 @@
   }
 }
 
+.home-revolution{
+  &__probe{
+    position: relative;
+
+    &:before{
+      content: "";
+      display: block;
+      position: absolute;
+      width: 22rem;
+      height: 22rem;
+      background-color: $magenta-button;
+      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      @include mq($from: md){
+        width: 27rem;
+        height: 27rem;
+      }
+    }
+
+    img{
+      width: 20rem;
+
+      @include mq($from: md){
+        width: 25rem;
+      }
+    }
+  }
+
+  &__connect{
+    position: relative;
+
+    &:before{
+      content: "";
+      display: block;
+      position: absolute;
+      width: 22rem;
+      height: 22rem;
+      background-color: $magenta-button;
+      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      @include mq($from: md){
+        width: 27rem;
+        height: 27rem;
+      }
+    }
+
+    img{
+      width:25rem;
+
+      @include mq($from: md){
+        width:40rem;
+      }
+
+      @include mq($from: lg){
+        width:60rem;
+      }
+
+    }
+  }
+}
+
 .home-move{
   margin-top: 2rem;
   padding: 8rem 0;
@@ -192,11 +259,6 @@
   &__text{
     color: $gray;
     margin-bottom: 2rem;
-  }
- }
-
-  .row{
-    margin-top: 10rem;
   }
 }
 
