@@ -14,7 +14,11 @@
 @import './sass/_project/grid/utilities';
 @import './sass/_project/grid/grid';
 
-@import 'components/header/header';
+@import './sass/_project/plugins/flickity';
+
+@import './components/header/header';
+@import './components/pin/pin';
+@import './components/banner/banner';
 @import 'components/footer/footer';
 @import './view/home/home';
 
