@@ -1,0 +1,81 @@
+.pin{
+    &__picture{
+        width: 45%;
+        margin: auto;
+        overflow: hidden;
+        border-radius: 50%;
+        background: $white;
+        position: relative;
+        box-shadow: 0 0 20px 5px rgba(0,0,0, .1),
+        0 0 0 20px rgba(240, 240, 240, .5);
+
+        &:before{
+            content: "";
+            display: block;
+            width: 100%;
+            padding-top: 100%;
+        }
+
+        img{
+            position: absolute;
+            width: 80%;
+            bottom: -1rem;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    &__legend{
+        @include font($font:$font, $size:2rem, $line_height:2rem, $color:$black, $font_weight:$bold);
+        margin: 4rem 0 2rem 0;
+    }
+
+    &__text{
+        @include font($font:$font, $size:1.4rem, $line_height:2rem, $color:$gray, $font_weight:$regular);
+    }
+
+    &__button{
+        display: block;
+        margin-top: 3rem;
+        @include font($font:$font, $size:1.4rem, $line_height:2rem, $color:$blue-brand, $font_weight:$regular);
+    }
+
+    &__item{
+        text-align: center;
+        padding: 4rem;
+        background-color: $white;
+        width: 80%;
+        margin-left: 2rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+
+        @include mq($from: lg){
+            width: 30%;
+            margin-left: 4rem;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+        }
+
+        @include mq($from: xl){
+            margin-left: 5rem;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+        }
+
+        &--big{
+            @include mq($from: lg){
+                box-shadow: 0 1px 8.5px 0 #9b9b9b;
+                transform: scale(1.1);
+            }
+
+            @include mq($from: xl){
+                transform: scale(1.2);
+            }
+
+            .pin__picture{
+                box-shadow: 0 0 0 12px #f695c1,
+                0 0 0 23px #fee9f2;
+            }
+        }
+    }
+}

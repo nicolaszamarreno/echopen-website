@@ -1,11 +1,17 @@
 .button{
-  &__regular{
-    @include font($font:$font, $size:1.6rem, $line_height:2rem, $color:$blue-brand, $font_weight:$semi-bold);
-    display: inline-block;
-    background: $white;
-    margin-top: 3rem;
-    padding: .8rem 6rem;
-    border-radius: .2rem;
-    @include box-shadow-strong($gray);
-  }
+  @include font($font:$font, $size:1.6rem, $line_height:2rem, $color:$white, $font_weight:$regular);
+  display: inline-block;
+  padding: .6rem 6rem;
+  border-radius: 10rem;
+
+    &--blue{
+      background: $blue-botton;
+      @include box-shadow-strong($blue-botton);
+    }
+
+    &--white{
+      color: $blue-brand;
+      background: $white;
+      @include box-shadow-strong($white);
+    }
 }

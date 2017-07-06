@@ -1,9 +1,8 @@
 export default{
-  name: 'navigation',
+  name: 'banner',
+  props: ['parameters'],
   data() {
     return {
     };
-  },
-  methods: {
   },
 };

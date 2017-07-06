@@ -19,7 +19,6 @@
             <router-link :to="{name: 'Don'}">Faire un don</router-link>
         </li>
     </ul>
-  </div>
 </template>
 
 
