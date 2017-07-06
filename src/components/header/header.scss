@@ -1,19 +1,27 @@
 .header{
-  position: absolute;
   left: 0;
   right: 0;
-  top: 2rem;
+  top: 0;
+  padding: 1rem 0;
   z-index: 20;
 
+  &--posAbsolute{
+    position: absolute;
+
+    .header__nav ul li a{
+      color: $white;
+    }
+  }
+
   &--fixed{
-    position: fixed;
+    position: fixed !important;
     background-color: white;
     box-shadow: 0 0 2px 0 $gray;
     padding: 1rem 0;
     top: 0;
     animation: 1s appear-in;
 
-    .header__nav ul li:not(:last-child) a{
+    .header__nav ul li a{
       color: $black;
     }
   }
@@ -31,9 +39,13 @@
       li{
         margin-left: 1.8rem;
 
+        &:last-child a{
+          color: $white;
+        }
+
         a{
           font-size: 1.6rem;
-          color: white;
+          color: $black;
         }
 
         &:last-child{

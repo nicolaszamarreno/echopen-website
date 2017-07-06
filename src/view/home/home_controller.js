@@ -15,6 +15,11 @@ export default {
   },
   mounted() {
     const $nav = document.querySelector('header');
+
+    if (document.querySelector('main').classList.contains('home')) {
+      document.querySelector('.header').classList.add('header--posAbsolute');
+    }
+
     window.addEventListener('scroll', () => {
       const pos = 100;
 
@@ -24,5 +29,8 @@ export default {
         $nav.classList.remove('header--fixed');
       }
     });
+  },
+  destroyed() {
+    document.querySelector('.header').classList.remove('header--posAbsolute');
   },
 };
