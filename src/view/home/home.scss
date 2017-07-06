@@ -103,11 +103,31 @@
 }
 
 .home-save{
-  background: url("assets/home_save.svg") no-repeat;
-  background-position: center top;
+  background: url("assets/home_wave.svg") no-repeat;
+  background-position: center center;
+  position: relative;
+  background-size: cover;
 
-  @include mq($from: lg){
-    background-size: 100% 100%;
+  @include mq($from: xl){
+    background-size: 100%;
+  }
+
+  &__cacheTop{
+    position: absolute;
+    top: 0;
+
+    path{
+      fill: $white;
+    }
+  }
+
+  &__cacheBottom{
+    position: absolute;
+    bottom: -.5rem;
+
+    path{
+      fill: $white;
+    }
   }
 
   .text__regular{

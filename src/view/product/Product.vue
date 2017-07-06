@@ -15,15 +15,6 @@
           </div>
         </div>
       </div>
-
- 
-      <!--<div class="countrySlider__content" :style="{ 'background-image': 'url(' + slides.img + ')' }">
-        <div class="countrySlider__content&#45;&#45;filter"></div>
-        <div class="countrySlider__content&#45;&#45;wrapper">
-          <p class="countrySlider__date">{{ slides.date }}</p>
-          <p class="countrySlider__text">{{ slides.text }}</p>
-        </div>
-      </div>-->
 '
       <div class="countrySlider__content">
         <div v-for="(el, index) in dateObject" class="countrySlider__item" :style="{ 'background-image': 'url(' + el.img + ')' }" >
