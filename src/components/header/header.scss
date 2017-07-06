@@ -56,7 +56,19 @@
       &.active {
         z-index: 1;
         span {
+          transition: 0.2s;
           background: #000000;
+          &:first-child {
+            transform: rotate(45deg);
+            top: 10px;
+          }
+          &:nth-child(2){
+            display: none;
+          }
+          &:last-child{
+            transform: rotate(-45deg);
+            top: 10px;
+          }
         }
       }
       span {
@@ -64,6 +76,7 @@
         height: 2px;
         background: white;
         left: 0;
+        transition: 0.2s;
         &:first-child {
           position: absolute;
           top: 0;
@@ -106,10 +119,10 @@
         height: initial;
       }
       li {
-        margin-left: 1.8rem;
         margin-bottom: 25px;
         text-align: center;
         @include mq($from: lg) {
+          margin-left: 1.8rem;
           text-align: inherit;
           margin-bottom: inherit;
         }
@@ -140,8 +153,9 @@
         }
 
         &:last-child {
-          margin-left: 3rem;
-
+          @include mq($from: lg) {
+            margin-left: 3rem;
+          }
           a {
             background: $magenta-button;
             padding: .5rem 1.2rem;
