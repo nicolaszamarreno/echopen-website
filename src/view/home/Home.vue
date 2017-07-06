@@ -70,10 +70,6 @@
         </div>
     </section>
     <section class="home-save">
-        <svg class="home-save__cacheTop" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1307.3 235.28">
-
-  <path class="cls-1" d="M-231,168l-.1,124.8S-125.9,112,241.1,227.9c0,0,273.6,96.1,295.7,104s355.4,151.1,539.4,8.3L1074.3,168Z" transform="translate(231.1 -168)"/>
-</svg>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-12">
@@ -91,10 +87,6 @@
                 </div>
             </div>
         </div>
-<svg class="home-save__cacheBottom" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1306.3 90.5">
-
-  <path class="cls-1" d="M-231,252s120,91.3,681.1,64.6c0,0,170.9-1.7,625-64.6l.2,89.5-1306.3,1V252Z" transform="translate(231 -252)"/>
-</svg>
     </section>
     <section class="home-pin">
         <pin :options="[

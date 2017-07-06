@@ -1,0 +1,32 @@
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1307.3 129.43">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#Dégradé_sans_nom);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="Dégradé_sans_nom" data-name="Dégradé sans nom" x1="653.65" y1="1209.21" x2="653.65" y2="388.71" gradientTransform="matrix(1, 0, 0, -1, 0, 517.14)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3c6eb5"/>
+      <stop offset="0.2" stop-color="#4483b8"/>
+      <stop offset="0.5" stop-color="#4999bb"/>
+      <stop offset="0.72" stop-color="#4bb0bd"/>
+      <stop offset="0.88" stop-color="#4bc6bf"/>
+      <stop offset="1" stop-color="#46ddc1"/>
+    </linearGradient>
+  </defs>
+  <title>bottom_wave</title>
+  <g>
+    <polygon class="cls-1" points="0 129.43 1307.3 129.43 1307.3 128.44 0 129.43 0 129.43"/>
+    <path class="cls-2" d="M0,0V44.07C36.08,63,195.57,126.35,681.78,103.53c0,0,171.38-19.39,625.52-81.39V7.6C1119.31,27.42,318.83,103.58,0,0Z"/>
+    <polygon class="cls-3" points="0 128.43 0 129.43 1307.3 128.44 1307.3 128.43 0 128.43"/>
+    <path class="cls-3" d="M1307.3,128.43V22.14c-454.14,62-625.52,81.39-625.52,81.39C195.57,126.35,36.08,63,0,44.07v84.36Z"/>
+  </g>
+</svg>

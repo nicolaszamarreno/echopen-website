@@ -1,0 +1,32 @@
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1307.3 269.51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#Dégradé_sans_nom);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="Dégradé_sans_nom" data-name="Dégradé sans nom" x1="653.65" y1="1902.28" x2="653.65" y2="1081.78" gradientTransform="matrix(1, 0, 0, -1, 0, 1903.28)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3c6eb5"/>
+      <stop offset="0.2" stop-color="#4483b8"/>
+      <stop offset="0.5" stop-color="#4999bb"/>
+      <stop offset="0.72" stop-color="#4bb0bd"/>
+      <stop offset="0.88" stop-color="#4bc6bf"/>
+      <stop offset="1" stop-color="#46ddc1"/>
+    </linearGradient>
+  </defs>
+  <title>top_wave</title>
+  <g>
+    <polygon class="cls-1" points="1307.3 0 0 0 0 0.99 1307.3 0.01 1307.3 0"/>
+    <path class="cls-2" d="M0,166.52C217.8-3.62,644,193,909.17,249.3c220.27,46.73,345.72,1.59,398.13-26.84V171.61c-188.38,130.27-514.61-8-536.62-15.71-22.4-7.9-299.77-104-299.77-104C154.85-46.56,30.32,69.09,0,106.13" transform="translate(0 0)"/>
+    <polygon class="cls-3" points="1307.3 1 1307.3 0.01 0 0.99 0 1 1307.3 1"/>
+    <path class="cls-3" d="M0,106.13c30.32-37,154.85-152.69,470.91-54.23,0,0,277.37,96.1,299.77,104,22,7.76,348.24,146,536.62,15.71V1H0Z" transform="translate(0 0)"/>
+  </g>
+</svg>

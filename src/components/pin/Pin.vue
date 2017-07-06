@@ -4,7 +4,7 @@
             <div class="pin__item">
                 <div class="pin__wrapper">
                     <figure class="pin__picture">
-                        <img :src="'../assets/' + options[0].picture" alt="Développeur">
+                        <img :src="'/static/img/' + options[0].picture" alt="Développeur">
                     </figure>
                     <figcaption class="pin__legend">
                         {{ options[0].title }}
@@ -20,7 +20,7 @@
             <div class="pin__item pin__item--big">
                 <div class="pin__wrapper">
                     <figure class="pin__picture">
-                        <img :src="'assets/' + options[1].picture" alt="Développeur">
+                        <img :src="'/static/img/' + options[1].picture" alt="Développeur">
                     </figure>
                     <figcaption class="pin__legend">
                         {{ options[1].title }}
@@ -36,7 +36,7 @@
             <div class="pin__item">
                 <div class="pin__wrapper">
                     <figure class="pin__picture">
-                        <img :src="'assets/' + options[2].picture" alt="Développeur">
+                        <img :src="'/static/img/' + options[2].picture" alt="Développeur">
                     </figure>
                     <figcaption class="pin__legend">
                         {{ options[2].title }}
