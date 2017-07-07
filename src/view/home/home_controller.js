@@ -15,15 +15,16 @@ export default {
     };
   },
   mounted() {
+    window.scrollTo(0, 0);
     const $nav = document.querySelector('header');
-    
+
     if (document.querySelector('main').classList.contains('home')) {
       document.querySelector('.header').classList.add('header--posAbsolute');
     }
-    
+
     window.addEventListener('scroll', () => {
       const pos = 100;
-      
+
       if (document.body.scrollTop > pos) {
         $nav.classList.add('header--fixed');
       } else if (document.body.scrollTop < pos) {

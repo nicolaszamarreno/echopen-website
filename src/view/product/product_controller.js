@@ -53,6 +53,7 @@ export default {
     banner: Banner,
   },
   mounted() {
+    window.scrollTo(0, 0);
     const productSlider = new Flickity('.countrySlider__content', {
       prevNextButtons: false,
       pageDots: false,
