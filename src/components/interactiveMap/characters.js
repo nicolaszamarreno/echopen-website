@@ -4,7 +4,7 @@ const Characters = [
     y: 17,
     s: 60,
     name: 'Jungle',
-    imgPath: 'https://static.pexels.com/photos/211050/pexels-photo-211050.jpeg',
+    imgPath: 'static/img/portrait1.png',
     description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
@@ -12,7 +12,7 @@ const Characters = [
     y: 45,
     s: 80,
     name: 'Jungle',
-    imgPath: 'https://static.pexels.com/photos/200664/pexels-photo-200664.jpeg',
+    imgPath: 'static/img/portrait2.png',
     description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
@@ -20,7 +20,7 @@ const Characters = [
     y: -1,
     s: 75,
     name: 'Jungle',
-    imgPath: 'https://static.pexels.com/photos/211050/pexels-photo-211050.jpeg',
+    imgPath: 'static/img/portrait3.png',
     description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
@@ -28,7 +28,7 @@ const Characters = [
     y: 3,
     s: 50,
     name: 'Jungle',
-    imgPath: 'https://static.pexels.com/photos/200664/pexels-photo-200664.jpeg',
+    imgPath: 'static/img/portrait4.png',
     description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
@@ -36,7 +36,7 @@ const Characters = [
     y: 0,
     s: 90,
     name: 'Jungle',
-    imgPath: 'https://static.pexels.com/photos/211050/pexels-photo-211050.jpeg',
+    imgPath: 'static/img/portrait5.png',
     description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
@@ -44,7 +44,7 @@ const Characters = [
     y: 17,
     s: 90,
     name: 'Jungle',
-    imgPath: 'https://static.pexels.com/photos/200664/pexels-photo-200664.jpeg',
+    imgPath: 'static/img/portrait6.png',
     description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
@@ -52,7 +52,7 @@ const Characters = [
     y: 70,
     s: 90,
     name: 'Jungle',
-    imgPath: 'https://static.pexels.com/photos/211050/pexels-photo-211050.jpeg',
+    imgPath: 'static/img/portrait7.png',
     description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
@@ -60,7 +60,7 @@ const Characters = [
     y: 75,
     s: 50,
     name: 'Jungle',
-    imgPath: 'https://static.pexels.com/photos/200664/pexels-photo-200664.jpeg',
+    imgPath: 'static/img/portrait7.png',
     description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
@@ -68,7 +68,7 @@ const Characters = [
     y: 80,
     s: 60,
     name: 'Jungle',
-    imgPath: 'https://static.pexels.com/photos/211050/pexels-photo-211050.jpeg',
+    imgPath: 'static/img/portrait8.png',
     description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
@@ -76,7 +76,7 @@ const Characters = [
     y: 60,
     s: 60,
     name: 'Jungle',
-    imgPath: 'https://static.pexels.com/photos/200664/pexels-photo-200664.jpeg',
+    imgPath: 'static/img/portrait9.png',
     description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
@@ -84,7 +84,7 @@ const Characters = [
     y: 70,
     s: 70,
     name: 'Jungle',
-    imgPath: 'https://static.pexels.com/photos/211050/pexels-photo-211050.jpeg',
+    imgPath: 'static/img/portrait10.png',
     description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
@@ -92,7 +92,7 @@ const Characters = [
     y: 50,
     s: 45,
     name: 'Jungle',
-    imgPath: 'https://static.pexels.com/photos/200664/pexels-photo-200664.jpeg',
+    imgPath: 'static/img/portrait11.png',
     description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
@@ -100,7 +100,7 @@ const Characters = [
     y: 40,
     s: 60,
     name: 'Jungle',
-    imgPath: 'https://static.pexels.com/photos/211050/pexels-photo-211050.jpeg',
+    imgPath: 'static/img/portrait12.png',
     description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
   {
@@ -108,7 +108,7 @@ const Characters = [
     y: 5,
     s: 50,
     name: 'Jungle',
-    imgPath: 'https://static.pexels.com/photos/200664/pexels-photo-200664.jpeg',
+    imgPath: 'static/img/portrait1.png',
     description: '“ Participer à EchoPen est pour moi une aventure extraordinaire, riche de rencontres, d’envie. L’objectif rendu par EchoPen est complètement dingue” ',
   },
 ];

@@ -2,7 +2,7 @@
   <section class="bePartner">
     <p class="bePartner__subtext">Professionnel ?</p>
     <p class="bePartner__title">Devenez Partenaire</p>
-    <p class="bePartner__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisinuli.</p>
+    <p class="bePartner__text">Vous êtes une association ou une entreprise, contactez-nous pour <strong>préparer ensemble l’organisation de l’événement</strong> que vous souhaitez consacrer à EchoPen..</p>
     <button class="bePartner__button">Nous contacter</button>
   </section>
 </template>

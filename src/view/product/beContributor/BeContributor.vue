@@ -2,7 +2,7 @@
    <section class="beContributor">
       <p class="beContributor__subtext">Particulier ?</p>
       <p class="beContributor__title">Devenez Contributeur</p>
-      <p class="beContributor__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisinuli.</p>
+      <p class="beContributor__text">Vous avez toujours souhaiter participer à un projet d’envergure mondial ? Devenez contributeur au sein d’EchoPen.</p>
       <button class="beContributor__button">Découvrir la communauté</button>
     </section>
 </template>

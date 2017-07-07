@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-3">
-                    <img class="header__logo" src="../../../src/assets/logo2x.png" alt="EchOpen">
+                    <img class="header__logo" src="" alt="EchOpen">
                 </div>
                 <div class="col-md-9 text-right">
                     <nav class="header__nav">

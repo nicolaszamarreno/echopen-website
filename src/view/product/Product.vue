@@ -30,7 +30,7 @@
 
     <section class="product-banner">
         <banner :parameters="[
-            {picture: 'home_rio.png', title: '1<sup>ère</sup> conférence à <strong>RIO !</strong>', text: 'Petit blabla comment ca va bien today tu as vu il fait beau dehors et on mange bien a la cantine.', link: ''}
+            {picture: 'home_rio.png', title: '1<sup>ère</sup> <strong>conférence</strong>', text: 'Venez nous rencontrer lors d’une conférence unique dirigée par notre fondateur Medhi Benchoufi. Au programme : une démonstration de l’EchoLife et un colloque composé de 	nombreux médecins.', link: ''}
         ]"></banner>
     </section>
 
@@ -38,9 +38,9 @@
         <h2 class="title__medium text-center mb-5">Ils nous ont <strong>aidés</strong></h2>
 
         <pin :options="[
-            {picture: 'home_donateur.svg', title: 'Donateur', text: 'Petit blabla comment ca va bien today tu as vu il fait beau dehors et on mange bien a la cantine.', link: ''},
-            {picture: 'home_contributeur.svg', title: 'Contributeur', text: 'Petit blabla comment ca va bien today tu as vu il fait beau dehors et on mange bien a la cantine.', link: ''},
-            {picture: 'home_developpeur.svg', title: 'Developpeur', text: 'Petit blabla comment ca va bien today tu as vu il fait beau dehors et on mange bien a la cantine.', link: ''}
+            {picture: 'portrait1.png', title: 'Donateur', text: 'Donner à une association était pour moi essentiel. À la différence d’autres associations, EchoPen a pour ambition de développeur des produits innovants. C’est pour cette raison que j’ai choisi de donner à EchoPen. ', link: ''},
+            {picture: 'portrait2.png', title: 'Contributeur', text: 'Participer à l’aventure EchoPen, c’est avant tout participer à une aventure humaine, collaborative Devenir contributeur m’a permis de développer mes compétences à travers une équipe riche et motivée à réaliser un projet fou !', link: ''},
+            {picture: 'portrait3.png', title: 'Développeur', text: 'Développer au sein d’EchoPen, c’est participé à projet OpenSource innovant et intéressant. Toute notre équipe est prête à aider les nouveaux développeurs !', link: ''}
         ]"></pin>
     </section>
     

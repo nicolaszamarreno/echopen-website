@@ -1,9 +1,7 @@
 .home-hero {
   height: 100vh;
-  background-image: url("https://alexwyke.files.wordpress.com/2013/05/shuttershock-medical-devices-corp-rep.jpg");
+  background: url("assets/home_header.jpg") no-repeat center fixed;
   background-color: $blue-brand;
-  background-repeat: no-repeat;
-  background-position: fixed;
   background-blend-mode: multiply;
   background-size: cover;
 
@@ -111,7 +109,7 @@
 }
 
 .section{
-  margin: 4.8rem 0;
+  margin: 8rem 0;
 }
 
 .home-save{
