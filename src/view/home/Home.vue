@@ -141,6 +141,8 @@
                 </div>
             </div>
         </section>
+        <h2 class="title__medium text-center">Une <strong>communauté</strong> naissante</h2>
+        <h4 class="title__small text-center mb-5">Plus nous sommes nombreux plus grand sera notre projet</h4>
         <InteractiveMap></InteractiveMap>
     </main>
 </transition>
