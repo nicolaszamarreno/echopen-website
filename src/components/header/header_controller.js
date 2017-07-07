@@ -30,8 +30,6 @@ export default{
   methods: {
     toggleMenu() {
       this.windowsWidth = window.innerWidth;
-      if (this.windowsWidth <= 991) {
-      }
       const body = document.querySelector('body');
       const nav = document.querySelector('.header__nav ul');
       const burger = document.querySelector('.header__burger');
@@ -40,7 +38,9 @@ export default{
         // burger.classList += 'header__burger active';
         burger.classList = 'header__burger active';
         body.classList = 'overflow';
+        console.log('aaa');
       } else {
+        console.log('hello');
         nav.classList = '';
         burger.classList = 'header__burger';
         body.classList = '';
