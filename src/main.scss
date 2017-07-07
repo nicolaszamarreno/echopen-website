@@ -1,7 +1,7 @@
-@import './sass/_config/sass-mq/mq';
 @import './sass/_config/functions';
 @import './sass/_config/mixins';
 @import './sass/_config/variable';
+@import './sass/_config/sass-mq/mq';
 
 @import './sass/_project/base/base';
 @import './sass/_project/fonts/fonts';
@@ -19,7 +19,8 @@
 @import './components/header/header';
 @import './components/pin/pin';
 @import './components/banner/banner';
-@import 'components/footer/footer';
+@import './components/interactiveMap/InteractiveMap';
+@import './components/footer/footer';
 
 @import './view/home/home';
 @import './view/product/product';
@@ -27,3 +28,17 @@
 
 
 
+
+/* Les animations d'entrée (« enter ») et de sortie (« leave »)  */
+/* peuvent utiliser differentes fonctions de durée et de temps.  */
+.slide-enter-active {
+    transition: all 1s ease;
+}
+.slide-leave-active {
+    transition: all 1s .5s ease;
+}
+.slide-enter, .slide-leave-to
+    /* .slide-fade-leave-active for <2.1.8 */ {
+    transform: translateY(-3rem);
+    opacity: 0;
+}

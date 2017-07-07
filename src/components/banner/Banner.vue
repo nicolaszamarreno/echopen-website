@@ -5,7 +5,7 @@
             </svg>
             <div class="row no-gutters align-items-center">
                 <div class="col-lg-6 col-md-6 text-left">
-                    <img class="home-picture" :src="'assets/' + parameters[0].picture" alt="un projet qui bouge">
+                    <img class="home-picture" :src="'/static/img/' + parameters[0].picture" alt="un projet qui bouge">
                 </div>
                 <div class="col-lg-4 col-md-6 pl-md-5 banner__desc">
                     <h1 v-html="parameters[0].title" class="banner__title">
