@@ -1,4 +1,5 @@
 <template lang="html">
+<transition name="slide">
   <section class="lab container">
     <div class="row">
     <section class="main--content col-lg-8 col-md-12">
@@ -219,6 +220,7 @@
       </div>
     </div>
   </section>
+</transition>
 </template>
 
 <script src="./lab_controller.js">

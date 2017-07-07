@@ -23,11 +23,11 @@ export default{
     const $containerSVG = document.querySelector('.interactiveMap__draw');
     const $characters = document.querySelectorAll('.character');
 
-    //Give size container SVG
+    // Give size container SVG
     $containerSVG.style.width = $container.offsetWidth;
     $containerSVG.style.height = $container.offsetHeight;
 
-    //Middle container
+    // Middle container
     const middleCardX = $container.offsetWidth / 2;
     const middleCardY = $container.offsetHeight / 2;
 
@@ -40,13 +40,11 @@ export default{
       const defPosY = (($container.offsetHeight * posY) / 100) + (_element.offsetHeight / 2);
       const defPosX = (($container.offsetWidth * posX) / 100) + (_element.offsetWidth / 2);
 
-        return {
+      return {
         x: defPosX,
         y: defPosY,
       };
     };
-
-    // Calcul middle card
 
     $characters.forEach((person) => {
       const pos = calcCoordonates(person);

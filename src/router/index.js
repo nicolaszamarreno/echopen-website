@@ -5,7 +5,6 @@ import Router from 'vue-router';
 import Home from '@/view/home/Home';
 import Product from '@/view/product/Product';
 import Presenting from '@/view/presenting/Presenting';
-import Contribute from '@/view/contribute/Contribute';
 import Contact from '@/view/contact/Contact';
 import Don from '@/view/don/Don';
 import Lab from '@/view/lab/Lab';
@@ -46,15 +45,6 @@ export default new Router({
       },
     },
     {
-      path: '/contribute',
-      name: 'Contribute',
-      components: {
-        default: Contribute,
-        header: Header,
-        footer: Footer,
-      },
-    },
-    {
       path: '/contact',
       name: 'Contact',
       components: {
@@ -73,7 +63,7 @@ export default new Router({
       },
     },
     {
-      path: '/lab',
+      path: '/contribute',
       name: 'Lab',
       components: {
         default: Lab,

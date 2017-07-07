@@ -3,6 +3,7 @@ import Issues from './issues.js';
 
 
 export default {
+  name: 'lab',
   data() {
     return {
       issues: Issues,

@@ -5,13 +5,10 @@
             <router-link :to="{name: 'Home'}">Accueil</router-link>
         </li>
         <li @click="closeMenu">
-            <router-link :to="{name: 'Presenting'}">Qui sommes-nous ?</router-link>
-        </li>
-        <li @click="closeMenu">
             <router-link :to="{name: 'Product'}">Le Produit</router-link>
         </li>
         <li @click="closeMenu">
-            <router-link :to="{name: 'Contribute'}">Contribuer</router-link>
+            <router-link :to="{name: 'Lab'}">Contribuer</router-link>
         </li>
         <li @click="closeMenu">
             <router-link :to="{name: 'Contact'}">Contact</router-link>
