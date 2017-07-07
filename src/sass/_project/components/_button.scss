@@ -3,6 +3,7 @@
   display: inline-block;
   padding: .6rem 6rem;
   border-radius: 10rem;
+  border: none;
 
     &--blue{
       background: $blue-button;
@@ -13,5 +14,11 @@
       color: $blue-brand;
       background: $white;
       @include box-shadow-strong($white);
+    }
+
+    &--magenta{
+      color: $white;
+      background: $magenta-button;
+      @include box-shadow-strong($magenta-button);
     }
 }

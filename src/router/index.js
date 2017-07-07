@@ -8,6 +8,7 @@ import Presenting from '@/view/presenting/Presenting';
 import Contribute from '@/view/contribute/Contribute';
 import Contact from '@/view/contact/Contact';
 import Don from '@/view/don/Don';
+import Lab from '@/view/lab/Lab';
 
 // components
 import Header from '@/components/header/Header';
@@ -67,6 +68,15 @@ export default new Router({
       name: 'Don',
       components: {
         default: Don,
+        header: Header,
+        footer: Footer,
+      },
+    },
+    {
+      path: '/lab',
+      name: 'Lab',
+      components: {
+        default: Lab,
         header: Header,
         footer: Footer,
       },

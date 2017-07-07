@@ -27,6 +27,18 @@
     &--white{
       color: $white;
     }
+
+    &--magenta {
+      color: $magenta-button;
+    }
+
+    &--blue {
+      color: #3fa9cd;
+    }
+
+    &--bold {
+      font-weight: bolder;
+    }
   }
 
   &__medium{
