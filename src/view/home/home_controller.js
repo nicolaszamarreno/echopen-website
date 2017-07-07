@@ -25,7 +25,8 @@ export default {
     window.addEventListener('scroll', () => {
       const pos = 100;
 
-      if (document.body.scrollTop > pos) {
+      let positionPage = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      if (positionPage > pos) {
         $nav.classList.add('header--fixed');
       } else if (document.body.scrollTop < pos) {
         $nav.classList.remove('header--fixed');

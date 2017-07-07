@@ -1,6 +1,6 @@
 <template lang="html">
   <section class="interactiveMap__container" :class="{mobile: isMobile}">
-    <svg class="interactiveMap__draw"></svg>
+    <svg class="interactiveMap__draw hidden-md-down"></svg>
     <div class="character__card col-md-3 col-xs-12">
       <img :src="cardData.imgPath" :class="{change:transitionClass}" alt="">
       <p :class="{change:transitionClass}">{{cardData.description}}</p>
@@ -8,7 +8,7 @@
         <a href="#" class="pull-right">Voir</a>
       </div>
     </div>
-    <div class="character__container">
+    <div class="character__container hidden-md-down">
       <div  class="character"
             v-for="character in characters"
             v-on:click="changeCard(character)"
