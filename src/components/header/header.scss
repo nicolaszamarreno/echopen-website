@@ -8,6 +8,10 @@
   &--posAbsolute {
     position: absolute;
 
+    .header__logo{
+      background-position: top center;
+    }
+
     .header__nav ul li a {
       //color: $white;
       color: #000;
@@ -37,6 +41,10 @@
     top: 0;
     animation: 1s appear-in;
 
+    .header__logo{
+      background-position: bottom center;
+    }
+
     .header__nav ul li a {
       color: $black;
     }
@@ -48,7 +56,12 @@
   }
 
   &__logo {
-    width: 12rem;
+    width: 11rem;
+    height: 3rem;
+    background: url("assets/logo-echopen_header.svg") no-repeat;
+    background-position: bottom center;
+    background-size: 100%;
+    transition: all 1s;
   }
 
   &__nav {
