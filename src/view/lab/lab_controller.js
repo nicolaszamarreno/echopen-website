@@ -51,25 +51,33 @@ export default {
     },
     getIssues() {
       fetch('https://api.github.com/repos/echopen/PRJ-medtec_androidapp/issues')
-      .then(r => r.json())
       .then((r) => {
-        this.issues = r;
+        if (r.status != 403) {
+          r.json().then((r) => {
+            this.issues = r;
+          });
+        }
       });
     },
     getContributors() {
       fetch('https://api.github.com/repos/echopen/PRJ-medtec_androidapp/contributors')
-      .then(r => r.json())
       .then((r) => {
-        r.forEach((user) => {
-          fetch(`https://api.github.com/users/${user.login}`)
-          .then(r => r.json())
+        if (r.status != 403) {
+          r.json()
           .then((r) => {
-            if (this.contributors.length < 3) {
-              this.contributors.push(r);
+            if (r) {
+              r.forEach((user) => {
+                fetch(`https://api.github.com/users/${user.login}`)
+                .then(r => r.json())
+                .then((r) => {
+                  if (this.contributors.length < 3) {
+                    this.contributors.push(r);
+                  }
+                });
+              });
             }
           });
-        });
-        // this.issues = r;
+        }
       });
     },
   },
