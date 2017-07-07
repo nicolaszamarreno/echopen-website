@@ -1,6 +1,8 @@
 <template lang="html">
 <transition name="slide">
-  <section class="lab container">
+  <section class="lab ">
+    <div class="container">
+
     <div class="row">
     <section class="main--content col-lg-8 col-md-12">
       <div class="card elevation-5">
@@ -219,6 +221,7 @@
         </button>
       </div>
     </div>
+    </div>
   </section>
 </transition>
 </template>
@@ -226,5 +229,5 @@
 <script src="./lab_controller.js">
 </script>
 
-<style lang="scss" src="./lab.scss">
+<style scoped lang="scss" src="./lab.scss">
 </style>
