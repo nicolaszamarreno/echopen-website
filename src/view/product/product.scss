@@ -188,4 +188,13 @@
 
 .product-pin{
   padding-bottom: 6rem;
+
+  .pin__picture{
+    img{
+      width: 100%;
+      height: 100%;
+      top: 0;
+      bottom: initial;
+    }
+  }
 }
