@@ -123,7 +123,7 @@
       </div>
     </aside>
     </div>
-    <div class="row padding">
+    <div class="row padding__little">
       <div class="col-lg-12 col-md-12 card elevation-5 d-flex justify-content-around padding__lg flex-wrap">
         <div class="">
           <h1 class="title__regular title__big--blue title__big--bold">
@@ -159,7 +159,7 @@
         </div>
       </div>
     </div>
-    <div class="row d-flex justify-content-between padding flex-wrap three-card">
+    <div class="row d-flex justify-content-between padding__little flex-wrap three-card">
       <div class="separate  card elevation-5">
         <h1 class="title__big title__big--blue title__big--bold">
           Soft issues
