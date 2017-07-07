@@ -72,7 +72,7 @@
     }
 
     &__date {
-      @include font($font: $font, $size: 30rem, $line_height: 2.5rem, $color: $white, $font_weight: $semi-bold);
+      @include font($font: $font, $size: 18rem, $line_height: 2.5rem, $color: $white, $font_weight: $semi-bold);
       margin-bottom: 25px;
       position: absolute;
       top: 50%;
@@ -81,6 +81,18 @@
       z-index: 10;
       opacity: 0;
       transition: 2s all;
+
+      @include mq($from: sm) {
+        font-size: 22rem;
+      }
+
+      @include mq($from: md) {
+        font-size: 25rem;
+      }
+
+      @include mq($from: lg) {
+        font-size: 30rem;
+      }
     }
 
     &__text {

@@ -115,7 +115,7 @@
           <br>
         </p>
         <div>
-          <input type="text" name="" value="">
+          <input type="text" name="" value="" placeholder="Votre email">
         </div>
         <button type="button" name="button" class="button button__lab button--magenta">
           Découvrir
