@@ -212,3 +212,13 @@
     }
   }
 }
+
+.product-partner{
+  &:first-child{
+    background: #DA127B;
+  }
+
+  &:last-child{
+    background: #30EFD7;
+  }
+}

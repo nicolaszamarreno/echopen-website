@@ -45,7 +45,7 @@
     </section>
     
     
-    <section class="container-fluid no-marginpadding">
+    <section class="container-fluid no-marginpadding product-partner">
       <div class="row no-marginpadding">
         <div class="col-md-6 no-marginpadding">
           <bepartner></bepartner>

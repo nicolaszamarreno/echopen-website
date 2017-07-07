@@ -13,11 +13,24 @@ export default{
   components: {
     navigation: Navigation,
   },
+  mounted() {
+    const $nav = document.querySelector('header');
+
+    window.addEventListener('scroll', () => {
+      const pos = 100;
+
+      const positionPage = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      if (positionPage > pos) {
+        $nav.classList.add('header--fixed');
+      } else if (document.body.scrollTop < pos) {
+        $nav.classList.remove('header--fixed');
+      }
+    });
+  },
   methods: {
     toggleMenu() {
       this.windowsWidth = window.innerWidth;
       if (this.windowsWidth <= 991) {
-        console.log('ok');
       }
       const body = document.querySelector('body');
       const nav = document.querySelector('.header__nav ul');
@@ -33,11 +46,9 @@ export default{
         body.classList = '';
       }
       this.count++;
-      console.log(this.count);
     },
     incrementC() {
       this.count++;
-      console.log(this.count);
     },
   },
 };
