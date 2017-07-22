@@ -74,7 +74,7 @@
     }
 
     &__date {
-      @include font($font: $font, $size: 18rem, $line_height: 2.5rem, $color: $white, $font_weight: $semi-bold);
+      @include font($font: $font, $size: 14rem, $line_height: 2.5rem, $color: $white, $font_weight: $semi-bold);
       margin-bottom: 25px;
       position: absolute;
       top: 50%;
@@ -98,13 +98,17 @@
     }
 
     &__text {
-      @include font($font: $font, $size: 3rem, $line_height: 1rem, $color: $white, $font_weight: $light);
+    @include font($font: $font, $size: 2rem, $line_height: 1rem, $color: $white, $font_weight: $light);
       width: 60vw;
       text-align: center;
       z-index: 13;
       transform: translateY(-50%);
       opacity: 0;
       transition: 2s 1s all;
+
+        @include mq($from: sm) {
+            @include font($font: $font, $size: 3rem, $line_height: 1rem, $color: $white, $font_weight: $light);
+        }
     }
 
     &__selection {
@@ -221,4 +225,8 @@
   &:last-child{
     background: #30EFD7;
   }
+}
+
+.flickity-enabled.is-draggable .flickity-viewport{
+    touch-action: pan-y !important;
 }
